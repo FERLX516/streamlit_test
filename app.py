@@ -50,3 +50,4 @@ if start_button:
     st.session_state['df_experiment_results'] = st.session_state['df_experiment_results'].reset_index(drop=True)
 
 st.write(st.session_state['df_experiment_results'])
+#this is gonna be updated every time we run the experiment, but it will keep all the previous results as well
